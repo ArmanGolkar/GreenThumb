@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap');
+html{
+    
+}
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Inter;
+}
+
+
+/* Navbar */
+.nav__list{
+    list-style: none;
+}
+.logo{
+    width: 200px;
+    cursor: pointer;
+}
+
+.nav__list li{
+    display: inline-block;
+    padding: 0 20px;
+    
+}
+
+.nav__list li a{
+    transition: all 0.3s ease 0s;
+    color: white;
+}
+
+.nav__list li a:hover{
+opacity: 0.8;
+}
+button{
+    display: none;
+}
+
+li,a,button{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;   
+ }
+
+button{
+    padding: 10px 18px 10px 18px;
+    background-color: greenyellow;
+    border: 1px solid greenyellow;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: white;
+    display: block;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+/* Header */
+.header{
+    background-image:linear-gradient(to bottom right,green,#b4ffb4);
+    clip-path: polygon(0 0,100% 0,100% 95%,0 100%);
+    height: 150vh;
+}
+
+header h1{
+    margin-top: 50px;
+    color: white;
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+header h2{
+  margin-top: 50px;
+  color: white;
+  font-weight: 600;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+ 
+header p{
+    line-height: 30px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    margin: auto auto;
+    text-align: left;
+    width: 80vw;
+}
+/* Estimator */
+
+h1>span {
+  color: white;
+  font-size: clamp(1.5em, 0em + 1.5vw, 2em);
+}
+
+input{
+  width:100px;
+  transition: all 0.3s ease-in-out
+}
+
+.intro {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  padding-top: 35px;
+}
+
+p {
+  text-align: center;
+  justify-self: center;
+  color: white ;
+  line-height: 25px;
+  font-family: 'Inter', sans-serif;
+  font-size: 10px;
+}
+
+
+.intro2 {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  padding-top: 50px;
+}
+
+.paragraph2 {
+  text-align: center;
+  justify-self: center;
+  color: #687568 ;
+  line-height: 25px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+}
+
+#services>div{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+}
+
+#services>div>div>span{
+  font-family: 'Inter', sans-serif;
+  color: #3f4d2b;
+}
+
+#space {
+  padding: 25px;
+}
+
+
+p{
+  margin-bottom: 0;
+  margin-top: 50px;
+  text-align: right;
+}
+
+
+/* footer */
+footer{
+  display: grid;
+  height: 300px;
+  background-color:#b4ffb4 ;
+  text-align: left;
+}
+.contact{
+  margin: 50px 50px;
+}
+.contact h3{
+  color: #007500;
+}
+.contact p{
+  margin-top: 8px;
+  color: green;
+  opacity: 0.8;
+  text-align: lefts;
+}
+.contact img{
+  height: 25px;
+  width: 25px;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+footer iframe,
+article iframe{
+  height: 280px;
+  margin-top: 10px;
+
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
